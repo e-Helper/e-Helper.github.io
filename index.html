@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-Helper</title>
+  <style>
+    html, body {
+      height: 100%; /* Tam yükseklik */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column; /* İçeriği dikey sırala */
+      background-color: #0d1117;
+      color: #e6edf3;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: #161b22;
+      padding: 25px 0;
+      font-size: 2em;
+      font-weight: bold;
+      color: #58a6ff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .main {
+      flex: 1; /* Footer’ı en alta itmek için */
+      margin-top: 80px;
+    }
+
+    .main h2 {
+      font-size: 1.5em;
+      color: #c9d1d9;
+    }
+
+    .download-buttons {
+      margin-top: 60px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background-color: #238636;
+      color: white;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 10px;
+      margin: 15px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      text-decoration: none;
+    }
+
+    .download-btn:hover {
+      background-color: #2ea043;
+      transform: scale(1.05);
+    }
+
+    .footer-text {
+      background-color: #161b22;
+      color: #8b949e;
+      padding: 10px;
+      font-size: 0.95em;
+    }
+
+    footer {
+      background-color: #161b22;
+      color: #8b949e;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>e-Helper</header>
+
+  <div class="main">
+    <h2>E-Helper — hızlı, güvenli ve ücretsiz!</h2>
+
+    <div class="download-buttons">
+      <a href="https://github.com/zuzuikiman/e-helper/releases/download/1.0.0/usbkeykilitkiricisetup.exe" class="download-btn">Windows 10 için USBKey Kırıcı indir</a>
+      <a href="ekilit_setup.exe" class="download-btn">Windows 10 için e-Kilit Kırıcı indir</a>
+    </div>
+  </div>
+
+  <!-- Footer üstüne ekstra yazı -->
+  <div class="footer-text">Kapıdaki kilidi kıran güç kas gücü değil, beyin gücüdür. e-Helper</div>
+
+  <footer>© 2025 e-Helper | Tüm hakları saklıdır.</footer>
+</body>
+</html>
